@@ -5,10 +5,10 @@ let num = 0;
 numbers.innerText = `${num}`
 
 let increaseVal = ()=>{
-    return num = num + 1;
+    return ++num;
 }
 let decreaseVal = ()=>{
-    return num = num - 1;
+    return --num;
 }
 
 
